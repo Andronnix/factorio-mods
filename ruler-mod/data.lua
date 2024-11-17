@@ -2,7 +2,7 @@ data:extend({
   {
     type = "custom-input",
     name = "ruler-get-selection-tool",
-    key_sequence = "ALT+SHIFT+R",
+    key_sequence = "CONTROL + SHIFT + R",
     action = "lua",
   },
   {
