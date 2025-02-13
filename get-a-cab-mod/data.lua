@@ -31,6 +31,7 @@ data:extend({
     name = cab_signal.name,
     stack_size = 1,
     icon = data.raw["rail-chain-signal"]["rail-chain-signal"].icon,
-    place_result = cab_signal.name
+    place_result = cab_signal.name,
+    flags = { "only-in-cursor", "not-stackable" }
   }
 })
