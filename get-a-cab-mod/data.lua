@@ -109,7 +109,6 @@ data:extend({
       "not-deconstructable",
       "not-blueprintable",
       "hide-alt-info",
-      "no-gap-fill-while-building",
       "no-automated-item-removal",
       "no-automated-item-insertion",
       "no-copy-paste",
