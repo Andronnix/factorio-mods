@@ -46,7 +46,7 @@ local function on_selected(e)
     y = math.floor(e.area.right_bottom.y + 0.5)
   }
 
-  ruler.draw_ruler(left_top, right_bottom, player.physical_surface, graphics_color, graphics_ttl)
+  ruler.draw_ruler(left_top, right_bottom, e.surface, graphics_color, graphics_ttl)
 end
 
 script.on_event(defines.events.on_lua_shortcut, on_select_start)
